@@ -27,8 +27,8 @@
  * http://resources.phplist.com/plugins/submitByMail .
  * 
  */
-require_once dirname(__FILE__) . "/submitByMailPlugin/sbmGlobals.php";  	// __DIR__ not consistent with PHP 5.x earlier than 5.3
-require_once dirname(__FILE__) . "/submitByMailPlugin/PEAR/Mail/mimeDecode.php";
+require_once (dirname(__FILE__) . "/submitByMailPlugin/sbmGlobals.php");
+require_once (dirname(__FILE__) . "/submitByMailPlugin/PEAR/Mail/mimeDecode.php");
 /**
  * Registers the plugin with phplist
  * 
